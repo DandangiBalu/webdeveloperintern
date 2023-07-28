@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://img.freepik.com/free-photo/coffee-cup-laptop-black-table-top-view-copyspace-background_144627-24861.jpg?size=626&ext=jpg&ga=GA1.2.1184810389.1688460014&semt=ais');
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c2c2c;
+      padding: 60px 0;
+      text-align: center;
+      color: rgb(255, 255, 255);
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    nav {
+      background-color: #454545;
+      padding: 20px 0;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      padding: 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #d40b0b;
+    }
+
+    section {
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #ffffff;
+      text-transform: uppercase;
+      position: relative;
+    }
+
+    section h2 span {
+      position: relative;
+      z-index: 1;
+    }
+
+    section h2::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: #e7360a;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform-origin: left center;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+
+    section h2:hover::after {
+      width: 100%;
+      transform: scaleX(1);
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #d3d3d3;
+      margin-bottom: 30px;
+    }
+
+    section ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    section li {
+      width: 200px;
+      padding: 20px;
+      margin: 10px;
+      background-color: #363636;
+      border: 2px solid #2c2c2c;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    section li:hover {
+      background-color: #f5070f;
+      border-color: #f91404;
+    }
+
+    section li:hover h3,
+    section li:hover p {
+      color: #2c2c2c;
+    }
+
+    section li h3 {
+      font-size: 24px;
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    section li p {
+      font-size: 16px;
+      color: #d3d3d3;
+    }
+
+    footer {
+      background-color: #2c2c2c;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Personal Website</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2><span>A</span>bout</h2>
+    <p>I am passionate about coding and love to develop web applications. Adopt at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.</p>
+  </section>
+
+  <section id="skills">
+    <h2><span>S</span>kills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>Django</li>
+      <li>Responsive Web Design</li>
+      <li>UI/UX Design</li>
+      <li>Version Control (Git)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2><span>P</span>rojects</h2>
+    <ul>
+      <li>Contact Form</li>
+      <li>Personal Website</li>
+      <li>Restaurant Website</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2><span>C</span>ontact</h2>
+    <p>Feel free to reach out to me:</p>
+    <ul>
+      <li>Email: baludandangi@gmail.com</li>
+      <li>Phone: +919052516191</li>
+      <li>Location: Kakinada, India</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 My Personal Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+
